@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teaching — Toomey Lab</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="site-nav">
+  <a href="index.html" class="nav-brand">Toomey Lab</a>
+  <button class="nav-toggle" aria-label="Toggle navigation" onclick="this.closest('nav').querySelector('.nav-links').classList.toggle('open')">
+    <span></span><span></span><span></span>
+  </button>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="research.html">Research</a></li>
+    <li><a href="publications.html">Publications</a></li>
+    <li><a href="people.html">People</a></li>
+    <li><a href="teaching.html" class="active">Teaching</a></li>
+    <li><a href="join.html">Join</a></li>
+  </ul>
+</nav>
+
+<div class="content-grid">
+  <main>
+    <h2 class="section-head">Teaching</h2>
+
+    <div class="course-card">
+      <h3>Introduction to Molecular and Cellular Biology (IMCB)</h3>
+      <p>An introduction to the molecular and biochemical composition of cells and the organization and function of both DNA and cellular structures. This course emphasizes three foundational concepts: (1) the acquisition, transformation, and utilization of energy; (2) the determinants and regulation of macromolecular form and function; and (3) the encoding, storage, and translation of information.</p>
+    </div>
+
+    <div class="course-card">
+      <h3>Principles of Neuroscience</h3>
+      <p>An introduction to the concepts and techniques of modern neuroscience. This course encompasses essential concepts including neuronal signal transduction and transmission, nervous system organization, sensory processing, and the neurobiology of behavior in model systems.</p>
+    </div>
+
+    <div class="course-card">
+      <h3>Genome Biology <span style="font-size:.85rem;font-weight:400;color:var(--gray-3)">(Graduate)</span></h3>
+      <p>A graduate-level course introducing foundational concepts in genome structure, function, and evolution. We detail current empirical approaches in genome biology and apply these tools in exercises and a class project — including genome assembly, alignment, annotation, and transcriptome analyses via UNIX-based bioinformatic applications and OSCER computing resources.</p>
+      <p style="margin-top:.5rem"><a href="https://github.com/mbtoomey" target="_blank">Course material on GitHub →</a></p>
+    </div>
+
+    <div class="course-card">
+      <h3>Data Wrangling and Visualization for Biology <span style="font-size:.85rem;font-weight:400;color:var(--gray-3)">(Graduate)</span></h3>
+      <p>A graduate-level seminar introducing a variety of tools — mostly centered around R — to handle computational and data presentation tasks commonly encountered in biology. The aim is to develop an approach to handling data and analyses in efficient, reproducible ways that can easily be shared with others.</p>
+    </div>
+
+  </main>
+
+  <aside class="sidebar">
+    <div class="sidebar-card">
+      <h3>Contact</h3>
+      <p><strong>Matthew Toomey, PhD</strong></p>
+      <p>Department of Biological Science<br>University of Tulsa<br>Tulsa, OK 74104</p>
+      <p><a href="mailto:mbtoomey@gmail.com">mbtoomey@gmail.com</a></p>
+    </div>
+    <div class="sidebar-card">
+      <h3>Navigate</h3>
+      <ul class="sidebar-links">
+        <li><a href="research.html">Research</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="people.html">People</a></li>
+        <li><a href="join.html">Join the Lab</a></li>
+      </ul>
+    </div>
+  </aside>
+</div>
+
+<footer class="site-footer">
+  <p>Toomey Lab · Department of Biological Science · University of Tulsa · Tulsa, OK 74104</p>
+  <p style="margin-top:.5rem">
+    <a href="mailto:mbtoomey@gmail.com">mbtoomey@gmail.com</a> ·
+    <a href="https://bsky.app/profile/mbtoomey.bsky.social" target="_blank">@mbtoomey.bsky.social</a> ·
+    <a href="https://github.com/mbtoomey" target="_blank">GitHub</a> ·
+    <a href="https://scholar.google.com/citations?user=48aHD6IAAAAJ" target="_blank">Google Scholar</a>
+  </p>
+</footer>
+</body>
+</html>

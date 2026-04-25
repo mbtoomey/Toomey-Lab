@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>People — Toomey Lab</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="site-nav">
+  <a href="index.html" class="nav-brand">Toomey Lab</a>
+  <button class="nav-toggle" aria-label="Toggle navigation" onclick="this.closest('nav').querySelector('.nav-links').classList.toggle('open')">
+    <span></span><span></span><span></span>
+  </button>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="research.html">Research</a></li>
+    <li><a href="publications.html">Publications</a></li>
+    <li><a href="people.html" class="active">People</a></li>
+    <li><a href="teaching.html">Teaching</a></li>
+    <li><a href="join.html">Join</a></li>
+  </ul>
+</nav>
+
+<div class="content-grid">
+  <main>
+    <h2 class="section-head">People</h2>
+
+    <h3 class="section-sub">Principal Investigator</h3>
+    <div class="people-grid" style="grid-template-columns:repeat(auto-fill,minmax(220px,280px))">
+      <div class="person-card">
+        <img src="images/scaled_2024.JPG" alt="Matthew Toomey">
+        <div class="person-info">
+          <div class="person-name">Matthew Toomey, PhD</div>
+          <div class="person-role">Associate Professor</div>
+          <div style="margin-top:.5rem;font-size:.85rem">
+            <a href="Toomey_CV_6Jun24.pdf" target="_blank">Curriculum Vitae</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h3 class="section-sub">Graduate Students</h3>
+    <div class="people-grid">
+      <div class="person-card">
+        <img src="images/HR.jpeg" alt="Hannah Reeb">
+        <div class="person-info">
+          <div class="person-name">Hannah Reeb</div>
+          <div class="person-role">PhD Student (co-advised with <a href="https://www.cliffswallow.org/" target="_blank">Charles Brown</a>)</div>
+        </div>
+      </div>
+    </div>
+
+    <h3 class="section-sub">Undergraduate Researchers</h3>
+    <div class="people-grid">
+      <div class="person-card" style="padding:1.25rem;display:flex;flex-direction:column;justify-content:center">
+        <div class="person-info">
+          <div class="person-name">Cory Scheer</div>
+        </div>
+      </div>
+      <div class="person-card" style="overflow:hidden">
+        <img src="images/Epperson Headshot.JPG" alt="Ben Epperson">
+        <div class="person-info">
+          <div class="person-name">Ben Epperson</div>
+        </div>
+      </div>
+      <div class="person-card" style="padding:1.25rem;display:flex;flex-direction:column;justify-content:center">
+        <div class="person-info">
+          <div class="person-name">Brian Nguyen</div>
+        </div>
+      </div>
+      <div class="person-card" style="padding:1.25rem;display:flex;flex-direction:column;justify-content:center">
+        <div class="person-info">
+          <div class="person-name">Nathan Reed</div>
+        </div>
+      </div>
+    </div>
+
+    <h3 class="section-sub">High School Researchers</h3>
+    <p>Akshaya Pradhananga</p>
+
+    <hr style="margin:2.5rem 0;border:none;border-top:2px solid var(--gray-2)">
+
+    <h2 class="section-head" style="margin-top:0">Lab Alumni</h2>
+
+    <h3 class="section-sub">Postdoctoral Associates</h3>
+    <div class="people-grid" style="grid-template-columns:repeat(auto-fill,minmax(200px,240px))">
+      <div class="person-card">
+        <img src="images/becca.jpg" alt="Rebecca Koch">
+        <div class="person-info">
+          <div class="person-name"><a href="https://www.rekoch.com/" target="_blank">Rebecca Koch, PhD</a></div>
+          <div class="person-role">Current: Assistant Professor, University of Wisconsin – Stevens Point</div>
+        </div>
+      </div>
+    </div>
+
+    <h3 class="section-sub">Graduate Students</h3>
+    <ul class="alumni-list">
+      <li>
+        <a href="https://www.linkedin.com/in/tarah-foster-402630127/" target="_blank">Tarah Foster</a>, M.S.
+        <span style="color:var(--gray-3);font-size:.88rem"> — Current: Lead Instructor, <a href="https://www.terra.do/" target="_blank">Terra.do</a></span>
+      </li>
+      <li>
+        Ashley Silver (co-advised with <a href="https://buchheimlab.weebly.com/" target="_blank">Mark Buchheim</a>)
+      </li>
+    </ul>
+
+    <h3 class="section-sub">Undergraduate Researchers</h3>
+    <ul class="alumni-list">
+      <li>Sarah Mason</li>
+      <li>Desirae Gonzales</li>
+      <li>Dustin Smith</li>
+      <li>Alyssa Williamson</li>
+      <li>Meadow Hansen-Gonzales</li>
+      <li>Brooke Joski</li>
+      <li>Christy Truong</li>
+      <li>Ethan Chandler</li>
+      <li>Mariah Moreland</li>
+      <li>
+        Maureen Haynes
+        <span style="color:var(--gray-3);font-size:.88rem"> — Current: Graduate Student, Northwestern Medicine</span>
+      </li>
+    </ul>
+  </main>
+
+  <aside class="sidebar">
+    <div class="sidebar-card">
+      <h3>Contact</h3>
+      <p><strong>Matthew Toomey, PhD</strong></p>
+      <p>Department of Biological Science<br>University of Tulsa<br>Tulsa, OK 74104</p>
+      <p><a href="mailto:mbtoomey@gmail.com">mbtoomey@gmail.com</a></p>
+    </div>
+    <div class="sidebar-card">
+      <h3>Links</h3>
+      <ul class="sidebar-links">
+        <li><a href="https://bsky.app/profile/mbtoomey.bsky.social" target="_blank">Bluesky</a></li>
+        <li><a href="https://github.com/mbtoomey" target="_blank">GitHub</a></li>
+        <li><a href="https://scholar.google.com/citations?user=48aHD6IAAAAJ" target="_blank">Google Scholar</a></li>
+        <li><a href="Toomey_CV_6Jun24.pdf" target="_blank">Curriculum Vitae</a></li>
+      </ul>
+    </div>
+    <div class="sidebar-card">
+      <h3>Join the Lab</h3>
+      <p style="font-size:.92rem">Interested in joining? We welcome undergraduate, graduate, and postdoctoral researchers.</p>
+      <a href="join.html" class="btn btn-primary" style="margin-top:.75rem;font-size:.9rem">Learn More</a>
+    </div>
+  </aside>
+</div>
+
+<footer class="site-footer">
+  <p>Toomey Lab · Department of Biological Science · University of Tulsa · Tulsa, OK 74104</p>
+  <p style="margin-top:.5rem">
+    <a href="mailto:mbtoomey@gmail.com">mbtoomey@gmail.com</a> ·
+    <a href="https://bsky.app/profile/mbtoomey.bsky.social" target="_blank">@mbtoomey.bsky.social</a> ·
+    <a href="https://github.com/mbtoomey" target="_blank">GitHub</a> ·
+    <a href="https://scholar.google.com/citations?user=48aHD6IAAAAJ" target="_blank">Google Scholar</a>
+  </p>
+</footer>
+</body>
+</html>
