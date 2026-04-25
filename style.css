@@ -24,8 +24,8 @@ h1,h2,h3,h4{font-family:var(--serif);line-height:1.25;color:var(--navy)}
 .nav-toggle{display:none;background:none;border:none;cursor:pointer;margin-left:auto;padding:.5rem}
 .nav-toggle span{display:block;width:24px;height:2px;background:#fff;margin:5px 0;border-radius:2px}
 /* Hero */
-.hero{background:linear-gradient(135deg,var(--navy) 0%,#2a4a6a 60%,var(--teal) 100%);color:var(--white);padding:5rem 2rem 4rem;text-align:center;position:relative;overflow:hidden}
-.hero::before{content:'';position:absolute;inset:0;background:url('images/OD_header2.jpg') center/cover no-repeat;opacity:.40}
+.hero{background:linear-gradient(135deg,var(--gray-4) 0%,#7c8186 60%,var(--gray-4) 100%);color:var(--white);padding:5rem 2rem 4rem;text-align:center;position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;inset:0;background:url('images/OD_header2.jpg') center/cover no-repeat;opacity:.18}
 .hero>*{position:relative}
 .hero h1{font-size:clamp(2.2rem,5vw,3.4rem);color:var(--white);margin-bottom:.5rem}
 .hero .subtitle{font-size:1.15rem;color:rgba(255,255,255,.78);max-width:640px;margin:0 auto 2rem;font-family:var(--sans);font-weight:300}
